@@ -1,0 +1,53 @@
+==================================================================
+ 操作系统核心原理综合实验 —— 环境自检
+ 适用系统：Windows 7 SP1 ～ Windows 11    检查路线：python
+==================================================================
+== 1. 操作系统与硬件 ==
+[--] 系统: Windows 11（build 26200，10.0.26200）
+[OK] 系统版本在本课程支持范围内（Windows 7 SP1 ～ Windows 11）
+[OK] 架构: AMD64（64 位）
+[OK] CPU: 物理核 14 / 逻辑核 20（建议 >=4 核，实验一加速比与实验五多进程需要）
+[OK] 内存: 15.6 GB（建议 >=8 GB，实验二内存观测需要）
+[OK] 系统盘可用空间: 590.4 GB（建议 >=10 GB）
+
+== 2. Python 运行环境（Python 路线） ==
+[--] 当前解释器: Python 3.12.10（64 位）
+[--] 路径: C:\Users\17679\AppData\Local\Programs\Python\Python312\python.exe
+[OK] 版本符合要求（3.9 ～ 3.13）
+[--] Win10/11 支持 3.9 ～ 3.13（推荐 3.11/3.12）
+
+== 3. 第三方库（Python 路线） ==
+[OK] psutil       7.2.2      —— 进程观测（实验一/二/三）
+[OK] numpy        1.26.4     —— 音频与数值（实验五，可选）
+[OK] matplotlib   3.11.0     —— 绘图（实验一/二，可选）
+
+== 4. 标准库与 Win32 调用 ==
+[OK] 标准库 ctypes 可用
+[OK] 标准库 struct 可用
+[OK] 标准库 hashlib 可用
+[OK] 标准库 wave 可用
+[OK] 标准库 csv 可用
+[OK] 标准库 multiprocessing 可用
+[OK] 标准库 array 可用
+[OK] user32.GetAsyncKeyState 调用成功（实验三轮询可用）
+[OK] kernel32.VirtualAlloc/VirtualFree 调用成功（实验二可用）
+
+== 6. 实验材料 ==
+[OK] 镜像存在：FAT32-DEMO.img（35138048 字节）
+[OK] 镜像存在：FAT32-DEMO.vhd（35138560 字节）
+[OK] 镜像 SHA-256 校验通过：b6f1ad6505fb3d0c…
+[OK] 参考音源：已就绪（3 个 WAV）
+[OK] 示例程序：2 个源文件（04_示例程序/）
+
+== 7. 权限 ==
+[--] 当前为普通用户权限；实验三（全局钩子）、实验四（挂载镜像）建议以管理员身份运行
+
+== 8. 外部工具（GUI 工具需手动确认） ==
+[--] 实验四：HxD（推荐）或 WinHex；ImDisk（挂载 .img）；7-Zip
+[--] 实验一/二：Process Explorer、VMMap（Sysinternals）
+[--] 实验五：Audacity（波形与爆音检查）
+[OK] VS Code: C:\Users\17679\AppData\Local\Programs\Microsoft VS Code\bin\code.CMD
+[OK] 记事本: C:\Windows\system32\notepad.EXE
+
+==================================================================
+环境自检通过，可以开始实验。

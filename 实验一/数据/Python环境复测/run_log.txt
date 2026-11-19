@@ -1,0 +1,24 @@
+Run 2026-11-18T15:02:15.122+08:00 | controlled | parent 13812 -> child 23240 (python.exe)
+Interval 0.500 s | logical CPUs 20 | working set in bytes
+ #     t(s)  status        CPU(%)    WS(MiB)    user(ms)  kernel(ms)
+ 1    0.032  running       0.0000       2.53          0          0 created
+ 2    0.519  waiting       4.1706      20.59        297        109 
+ 3    1.019  waiting       0.0000      20.59        297        109 
+ 4    1.528  running       0.3065      20.59        328        109 
+ 5    2.079  suspended     4.6833      20.59        828        125 
+ 6    2.518  suspended     0.0000      20.59        828        125 
+ 7    3.018  suspended     0.0000      20.59        828        125 
+ 8    3.519  running       0.1559      20.59        844        125 resume
+ 9    4.019  running       4.6835      20.59       1312        125 
+10    4.518  running       4.5472      20.59       1766        125 
+11    5.022  running       5.1121      20.59       2281        125 
+12    5.518  running       4.7282      20.59       2750        125 
+13    6.028  terminated    4.9018       0.00       3250        125 
+    0.0000 s  create_begin                ms  
+    0.0151 s  created             15.0531 ms  pid=23240
+    0.2932 s  first_code                  ms  
+    0.4939 s  child_waiting               ms  
+    1.4943 s  child_running               ms  
+    2.0763 s  suspended           60.0955 ms  OK=4, failed=0, TID:previous=[(14764, 0), (3656, 0), (18596, 0), (11732, 0)]
+    3.5154 s  resumed              0.0851 ms  OK=4, failed=0, TID:previous=[(14764, 1), (3656, 1), (18596, 1), (11732, 1)]
+    6.0277 s  terminated          12.0805 ms  exit_code=1

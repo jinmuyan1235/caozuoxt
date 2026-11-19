@@ -1,0 +1,4 @@
+﻿screenshot,screenshot_time,sample_idx,sample_time,pid,ppid,program_cpu_percent,explorer_cpu_display,explorer_working_set_kib,program_working_set_bytes,working_set_absolute_diff_bytes,sample_offset_s
+ProcessExplorer_1.jpg,2026-11-17T09:16:00.335+08:00,23,2026-11-17T09:16:00.303+08:00,24960,12512,0.0,blank,21228,21737472,0,0.0320
+ProcessExplorer_2.jpg,2026-11-17T09:16:16.867+08:00,40,2026-11-17T09:16:17.307+08:00,24960,12512,0.0,blank,21276,21786624,0,0.4395
+ProcessExplorer_3.jpg,2026-11-17T09:16:24.156+08:00,47,2026-11-17T09:16:24.298+08:00,24960,12512,0.0,blank,21276,21786624,0,0.1420

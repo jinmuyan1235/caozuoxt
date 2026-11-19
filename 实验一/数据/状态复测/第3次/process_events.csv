@@ -1,0 +1,9 @@
+﻿event,timestamp,op_ms,detail
+create_begin,0.0,,
+created,0.0093494,9.3494,pid=19236
+first_code,0.1799998,,
+child_waiting,0.3800804,,
+child_running,1.3806732,,
+suspended,2.0358444,25.8043,"OK=4, failed=0, TID:previous=[(18428, 0), (2360, 0), (21092, 0), (16308, 0)]"
+resumed,3.5102894,0.2903,"OK=4, failed=0, TID:previous=[(18428, 1), (2360, 1), (21092, 1), (16308, 1)]"
+terminated,6.0146974,4.8953,exit_code=1

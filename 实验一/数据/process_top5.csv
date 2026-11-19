@@ -1,0 +1,6 @@
+﻿pid,ppid,name,status,threads,cpu_percent,working_set,observed_at
+4,0,System,running,399,0.826,6811648,2026-11-17T08:43:20.536+08:00
+12236,12152,explorer.exe,running,96,0.094,479428608,2026-11-17T08:43:20.536+08:00
+7760,6088,GameViewerServer.exe,running,93,0.045,56410112,2026-11-17T08:43:20.536+08:00
+6332,1628,MsMpEng.exe,running,92,5.101,641146880,2026-11-17T08:43:20.536+08:00
+19772,18664,iKuuuVPN.exe,running,85,0.2,74010624,2026-11-17T08:43:20.536+08:00

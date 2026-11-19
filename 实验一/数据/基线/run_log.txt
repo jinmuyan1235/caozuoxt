@@ -1,0 +1,18 @@
+Run 2026-11-17T08:40:35.693+08:00 | baseline | parent 11668 -> child 6636 (python.exe)
+Interval 0.500 s | logical CPUs 20 | working set in bytes
+ #     t(s)  status        CPU(%)    WS(MiB)    user(ms)  kernel(ms)
+ 1    0.021  running       0.0000       2.51          0          0 created
+ 2    0.513  waiting       3.0198      20.50        250         47 
+ 3    1.013  waiting       0.0000      20.50        250         47 
+ 4    1.513  running       1.5623      20.50        406         47 
+ 5    2.013  running       5.0020      20.50        906         47 
+ 6    2.514  running       4.9824      20.50       1406         47 
+ 7    3.014  running       5.0043      20.50       1906         47 
+ 8    3.513  running       5.0069      20.50       2406         47 
+ 9    4.013  running       5.0020      20.50       2906         47 
+10    4.513  running       5.0015      20.50       3406         47 
+    0.0000 s  create_begin                ms  
+    0.0106 s  created             10.5566 ms  pid=6636
+    0.1505 s  first_code                  ms  
+    0.3505 s  child_waiting               ms  
+    1.3511 s  child_running               ms  

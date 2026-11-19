@@ -1,0 +1,6 @@
+﻿event,timestamp,op_ms,detail
+create_begin,0.0,,
+created,0.0105566,10.5566,pid=6636
+first_code,0.1504933,,
+child_waiting,0.3505283,,
+child_running,1.3510847,,
